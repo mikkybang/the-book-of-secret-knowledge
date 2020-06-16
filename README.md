@@ -826,7 +826,7 @@ performance of any of your sites from across the globe.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://wiki.bash-hackers.org/start"><b>The Bash Hackers Wiki</b></a> - hold documentation of any kind about GNU Bash.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/contents.html"><b>Shell & Utilities</b></a> - describes the commands and utilities offered to application programs by POSIX-conformant systems.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/jlevy/the-art-of-command-line"><b>the-art-of-command-line</b></a> - master the command line, in one page.<br>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://google.github.io/styleguide/shell.xml"><b>Shell Style Guide</b></a> - a shell style guide for Google-originated open-source projects.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://google.github.io/styleguide/shellguide.html"><b>Shell Style Guide</b></a> - a shell style guide for Google-originated open-source projects.<br>
 </p>
 
 ##### :black_small_square: Text Editors
@@ -861,6 +861,7 @@ performance of any of your sites from across the globe.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://peteris.rocks/blog/htop/"><b>htop explained</b></a> - explanation of everything you can see in htop/top on Linux.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://linuxguideandhints.com/"><b>Linux Guide and Hints</b></a> - tutorials on system administration in Fedora and CentOS.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/NanXiao/strace-little-book"><b>strace-little-book</b></a> - a little book which introduces strace.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/goldshtn/linux-tracing-workshop"><b>linux-tracing-workshop</b></a> - examples and hands-on labs for Linux tracing tools workshops.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/bagder/http2-explained"><b>http2-explained</b></a> - a detailed document explaining and documenting HTTP/2.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/bagder/http3-explained"><b>http3-explained</b></a> - a document describing the HTTP/3 and QUIC protocols.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://www.manning.com/books/http2-in-action"><b>HTTP/2 in Action</b></a> - an excellent introduction to the new HTTP/2 standard.<br>
@@ -958,6 +959,7 @@ performance of any of your sites from across the globe.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/"><b>HTTPS on Stack Overflow</b></a> - this is the story of a long journey regarding the implementation of SSL.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://drawings.jvns.ca/"><b>Julia's Drawings</b></a> - some drawings about programming and unix world, zines about systems & debugging tools.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/corkami/collisions"><b>Hash collisions</b></a> - this great repository is focused on hash collisions exploitation.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/in3rsha/sha256-animation"><b>sha256-animation</b></a> - animation of the SHA-256 hash function in your terminal.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://labs.ripe.net/Members/cteusche/bgp-meets-cat"><b>BGP Meets Cat</b></a> - after 3072 hours of manipulating BGP, Job Snijders has succeeded in drawing a Nyancat.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/benjojo/bgp-battleships"><b>bgp-battleships</b></a> - playing battleships over BGP.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/alex/what-happens-when"><b>What happens when...</b></a> - you type google.com into your browser and press enter?<br>
@@ -1304,6 +1306,7 @@ CyberTalks</b></a> - talks, interviews, and article about cybersecurity.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/djadmin/awesome-bug-bounty"><b>awesome-bug-bounty</b></a> - is a comprehensive curated list of available Bug Bounty.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/ngalongc/bug-bounty-reference"><b>bug-bounty-reference</b></a> - is a list of bug bounty write-ups.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/devanshbatham/Awesome-Bugbounty-Writeups"><b>Awesome-Bugbounty-Writeups</b></a> - is a curated list of bugbounty writeups.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://pentester.land/list-of-bug-bounty-writeups.html"><b>Bug bounty writeups</b></a> - list of bug bounty writeups (2012-2020).<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://hackso.me/"><b>hackso.me</b></a> - a great journey into security.<br>
 </p>
 
@@ -1530,8 +1533,9 @@ AWS deployment tool.<br>
 
 | <b><u>Extension name</u></b> | <b><u>Description</u></b> |
 | :---         | :---         |
+| **`Active Scan++`** | Extends Burp's active and passive scanning capabilities. |
 | **`Autorize`** | Automatically detects authorization enforcement. |
-| **`Reflection`** | An efficient blocker: easy on memory and CPU footprint. |
+| **`AuthMatrix`** | A simple matrix grid to define the desired levels of access privilege. |
 | **`Logger++`** | Logs requests and responses for all Burp tools in a sortable table. |
 | **`Bypass WAF`** | Adds headers useful for bypassing some WAF devices. |
 | **`JSON Beautifier`** | Beautifies JSON content in the HTTP message viewer. |
@@ -1539,19 +1543,34 @@ AWS deployment tool.<br>
 | **`CSP Auditor`** | Displays CSP headers for responses, and passively reports CSP weaknesses. |
 | **`CSP-Bypass`** | Passively scans for CSP headers that contain known bypasses. |
 | **`Hackvertor`** | Converts data using a tag-based configuration to apply various encoding. |
-| **`Active Scan++`** | Extends Burp's active and passive scanning capabilities. |
 | **`HTML5 Auditor`** | Scans for usage of risky HTML5 features. |
-| **`Software Vulnerability Scanner`** | Software vulnerability scanner based on Vulners.com audit API. |
+| **`Software Vulnerability Scanner`** | Vulnerability scanner based on vulners.com audit API. |
+| **`Turbo Intruder`** | Is a powerful bruteforcing tool. |
+| **`Upload Scanner`** | Upload a number of different file types, laced with different forms of payload. |
 
-###### Hack Mozilla Firefox addressbar
+###### Hack Mozilla Firefox address bar
 
-In Firefox's addressbar, you can limit results by typing special characters before or after your term:
+In Firefox's address bar, you can limit results by typing special characters before or after your term:
 
 - `^` - for matches in your browsing history
 - `*` - for matches in your bookmarks.
 - `%` - for matches in your currently open tabs.
 - `#` - for matches in page titles.
 - `@` - for matches in web addresses.
+
+###### Chrome hidden commands
+
+- `chrome://chrome-urls` - list of all commands
+- `chrome://flags` - enable experiments and development features
+- `chrome://interstitials` - errors and warnings
+- `chrome://net-internals` - network internals (events, dns, cache)
+- `chrome://network-errors` - network errors
+- `chrome://net-export` - start logging future network activity to a file
+- `chrome://safe-browsing` - safe browsing options
+- `chrome://user-actions` - record all user actions
+- `chrome://restart` - restart chrome
+- `chrome://dino` - ERR_INTERNET_DISCONNECTED...
+- `cache:<website-address>` - view the cached version of the web page
 
 ###### Bypass WAFs by Shortening IP Address (by [0xInfection](https://twitter.com/0xInfection))
 
@@ -2737,6 +2756,16 @@ openssl pkcs12 -in ${_fd_pfx} -nocerts -nodes -out ${_fd_key} )
 ```bash
 ( _fd_pfx="cert.pfx" ; _fd_pem="key_certs.pem" ; \
 openssl pkcs12 -in ${_fd_pfx} -nodes -out ${_fd_pem} )
+```
+
+###### Extract certs from p7b
+
+```bash
+# PKCS#7 file doesn't include private keys.
+( _fd_p7b="cert.p7b" ; _fd_pem="cert.pem" ; \
+openssl pkcs7 -inform DER -outform PEM -in ${_fd_p7b} -print_certs > ${_fd_pem})
+# or:
+openssl pkcs7 -print_certs -in -in ${_fd_p7b} -out ${_fd_pem})
 ```
 
 ###### Convert DER to PEM
